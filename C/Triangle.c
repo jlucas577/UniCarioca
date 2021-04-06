@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/*
+	Esse algoritmo recebe o valor de X, Y e Z e tem como objetivo verificar se
+	eles podem ser os comprimentos dos lados de um triângulo. Exibindo ao usuário
+	uma mensagem com o resultado dessa verificação.
+	Obs.: O comprimento de cada lado de um triângulo deve ser menor do que a soma
+	dos comprimentos dos outros dois lados.
+*/
+
 int main() {
 	int X, Y, Z, somaYZ, somaXZ, somaXY = 0;
 
