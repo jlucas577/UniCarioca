@@ -17,7 +17,12 @@
 */
 
 int main() {
-	int X, Y, Z, somaYZ, somaXZ, somaXY = 0;
+	int X = 0,
+		Y = 0,
+		Z = 0,
+		somaYZ = 0,
+		somaXZ = 0,
+		somaXY = 0;
 
 	printf("Digite o valor de X: \n");
 	scanf("%d", &X);
