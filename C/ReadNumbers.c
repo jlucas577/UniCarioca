@@ -29,7 +29,7 @@ int main() {
     } else if (numero >= 66 && numero <= 100) {
       intervaloDe66A100 += 1;
     }
-  } while(numero >= 0);
+  } while (numero >= 0);
 
   printf("%d números estão no intervalo [0-30] \n", intervaloDe0A30);
   printf("%d números estão no intervalo [31-65] \n", intervaloDe31A65);
