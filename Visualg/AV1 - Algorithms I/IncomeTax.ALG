@@ -1,23 +1,23 @@
 Algoritmo "Income Tax"
 // Disciplina   : Algoritmos I
 // Professor   : Priscilla Fonseca de Abreu Braz
-// Descrição   : Esse algoritmo tem como objetivo calcular o imposto
-//               de renda a partir da renda mensal informada pelo usuário.
-// Autor(a)    : João Lucas Martins de Sousa
+// DescriÃ§Ã£o   : Esse algoritmo tem como objetivo calcular o imposto
+//               de renda a partir da renda mensal informada pelo usuï¿½rio.
+// Autor(a)    : Joï¿½o Lucas Martins de Sousa
 // Data atual  : 12/04/2021
 Var
    salario, impostoAPagar : real
 
 Inicio
       Escreval("Seja bem vindo(a) a calculadora de imposto de renda!")
-      
-      Escreval("Qual é o valor do seu salário?")
+
+      Escreval("Qual ï¿½ o valor do seu salï¿½rio?")
       Leia(salario)
-      
-      Escreval("O seu salário bruto é de: R$", salario)
-      
+
+      Escreval("O seu salï¿½rio bruto ï¿½ de: R$", salario)
+
       Se (salario <= 1903.98) Entao
-         Escreval("Você é isento de imposto de renda!")
+         Escreval("Vocï¿½ ï¿½ isento de imposto de renda!")
       Senao
            Se (salario >= 1903.99) Entao
               Se (salario <= 2826.65) Entao
@@ -36,7 +36,7 @@ Inicio
                    Fimse
               Fimse
            Fimse
-           
-           Escreval("Seu imposto de renda está no valor de R$", impostoAPagar)
+
+           Escreval("Seu imposto de renda estï¿½ no valor de R$", impostoAPagar)
       Fimse
 Fimalgoritmo
