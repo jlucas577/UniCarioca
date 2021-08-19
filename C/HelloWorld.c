@@ -13,7 +13,6 @@
 */
 
 int main() {
-	int média$ = 0;
 	printf("Hello World in C!");
 
 	return 0;
