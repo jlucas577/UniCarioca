@@ -22,7 +22,7 @@ int main() {
   int num, res;
 
   printf("Digite um número positivo qualquer: \n");
-  scanf("%d \n", &num);
+  scanf("%d", &num);
 
   res = factorial(num);
 
