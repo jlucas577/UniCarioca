@@ -24,7 +24,11 @@ int main() {
   printf("Digite um número positivo qualquer: \n");
   scanf("%d", &num);
 
-  res = factorial(num);
+  if (num >= 0) {
+    res = factorial(num);
 
-  printf("Resultado: %d \n", res);
+    printf("Resultado: %d \n", res);
+  } else {
+    printf("Você precisa digitar um número positivo! \n");
+  }
 }

@@ -37,5 +37,9 @@ int main() {
   printf("Digite um número positivo para ver o seu fatorial: \n");
   scanf("%d", &num);
 
-  factorial(num);
+  if (num >= 0) {
+    factorial(num);
+  } else {
+    printf("Você precisa digitar um número positivo! \n");
+  }
 }
