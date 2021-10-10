@@ -19,9 +19,11 @@ int main() {
 
   for (i = 0; i < vectorSize; i++) {
     printf("Primeiro vetor - Digite o %iº valor: \n", (i + 1));
+    fflush(stdin);
     scanf("%i", &vector1[i]);
 
     printf("Segundo vetor - Digite o %iº valor: \n", (i + 1));
+    fflush(stdin);
     scanf("%i", &vector2[i]);
 
     printf("\n-----\n\n");

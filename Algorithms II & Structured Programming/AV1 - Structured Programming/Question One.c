@@ -29,9 +29,11 @@ int main() {
   char text[80], oldChar;
 
   printf("Digite um texto qualquer: \n");
+  fflush(stdin);
   fgets(text, 80, stdin);
 
   printf("\nQual caractere deseja remover? \n");
+  fflush(stdin);
   scanf("%s%*c", &oldChar);
 
   replace(text, oldChar);

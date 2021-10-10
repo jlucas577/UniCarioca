@@ -40,14 +40,14 @@ int main() {
   printf("Seja bem vindo ao nosso sistema para gerenciamento de automóveis!\n\n");
   printf("Caso queira parar o cadastro, basta digitar 0 quando o código for solicitado\n");
 
-  printf("\n-----\n\n");
-
   i = 0;
 
   do {
+    printf("\n-----\n\n");
     printf("%iº automóvel: \n", (i + 1));
 
     printf("\nDigite o código: \n");
+    fflush(stdin);
     scanf("%d%*c", &cars[i].code);
 
     if (cars[i].code == 0) {
@@ -56,15 +56,16 @@ int main() {
     }
 
     printf("\nDigite o modelo: \n");
+    fflush(stdin);
     fgets(cars[i].model, 50, stdin);
 
     printf("\nDigite o ano: \n");
+    fflush(stdin);
     scanf("%d%*c", &cars[i].year);
 
     printf("\nDigite a placa: \n");
-    scanf("%s%*c", &cars[i].sign);
-
-    printf("\n-----\n\n");
+    fflush(stdin);
+    fgets(cars[i].sign, 7, stdin);
 
     if (i == vectorSize) {
       nextCar = false;

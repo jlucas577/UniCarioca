@@ -39,27 +39,31 @@ int main() {
   i = 0;
 
   printf("Seja bem-vindo(a) ao nosso sistema de gerenciamento de livros! \n");
-  printf("Caso queira parar o cadastro, basta informar 0 quando o código ISBN for solicitadi.");
+  printf("Caso queira parar o cadastro, basta informar 0 quando o código ISBN for solicitado.");
 
   do {
     printf("\n-----\n\n");
     printf("%iº livro:", (i + 1));
 
     printf("\n\nCódigo ISBN: ");
-    scanf("%s%*c", &books[i].isbn);
+    fflush(stdin);
+    fgets(books[i].isbn, 20, stdin);
 
-    if (!strcmp("0", books[i].isbn)) {
+    if (!strcmp("0\n", books[i].isbn)) {
       nextBook = false;
       break;
     }
 
     printf("\nTítulo: ");
-    fgets(&books[i].title, 100, stdin);
+    fflush(stdin);
+    fgets(books[i].title, 100, stdin);
 
     printf("\nAutor: ");
-    fgets(&books[i].author, 100, stdin);
+    fflush(stdin);
+    fgets(books[i].author, 100, stdin);
 
     printf("\nNúmero de páginas: ");
+    fflush(stdin);
     scanf("%i%*c", &books[i].pages);
 
     if (i < vectorSize) {
@@ -71,16 +75,18 @@ int main() {
     i++;
   } while (nextBook == true && i < vectorSize);
 
-  printf("\n-----");
-  printf("\n\nLivros cadastrados:");
+  printf("\n-----\n\n");
+  printf("Livros cadastrados: \n\n");
 
   for (i = 0; i < vectorSize; i++) {
     if (strcmp("NULL", books[i].author) != 0) {
-      printf("\n\n%iº livro:", (i + 1));
-      printf("\nCódigo ISBN: %s", books[i].isbn);
-      printf("\nTítulo: %s", books[i].title);
-      printf("Autor: %s", books[i].author);
-      printf("Número de páginas: %i", books[i].pages);
+      printf("%iº livro: \n", (i + 1));
+      printf("\n Código ISBN: %s", books[i].isbn);
+      printf(" Título: %s", books[i].title);
+      printf(" Autor: %s", books[i].author);
+      printf(" Número de páginas: %i", books[i].pages);
+
+      printf("\n\n-----\n\n");
     }
   }
 
