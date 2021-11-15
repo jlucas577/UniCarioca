@@ -6,10 +6,10 @@
 
 /*
   Questão: Considere um sistema para gerenciamento dos livros de uma livraria. Faça um programa em C
-  para ler e manipular as informações de um cadastro de livros. Defina um vetor de registros de
-  até 50 posições e faça o cadastro enquanto o usuário desejar, respeitando o limite. Ao final do
-  cadastro, o programa deve exibir todos os dados dos livros cadastrados. Os campos da
-  estrutura são: isbn, título, autor, ano e número de páginas.
+    para ler e manipular as informações de um cadastro de livros. Defina um vetor de registros de
+    até 50 posições e faça o cadastro enquanto o usuário desejar, respeitando o limite. Ao final do
+    cadastro, o programa deve exibir todos os dados dos livros cadastrados. Os campos da
+    estrutura são: isbn, título, autor, ano e número de páginas.
 */
 
 /*

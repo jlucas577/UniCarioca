@@ -6,11 +6,11 @@
 
 /*
   Questão: Considere um sistema para gerenciamento dos automóveis de uma
-  loja. Faça um programa em C para ler e manipular as informações de um cadastro de
-  automóveis. Defina um vetor de registros de até 50 posições e faça o cadastro enquanto o
-  usuário desejar, respeitando o limite de automóveis. Ao final do cadastro, o programa deve
-  exibir todos os dados dos automóveis cadastrados. Os campos da estrutura são: código,
-  modelo, ano e placa
+    loja. Faça um programa em C para ler e manipular as informações de um cadastro de
+    automóveis. Defina um vetor de registros de até 50 posições e faça o cadastro enquanto o
+    usuário desejar, respeitando o limite de automóveis. Ao final do cadastro, o programa deve
+    exibir todos os dados dos automóveis cadastrados. Os campos da estrutura são: código,
+    modelo, ano e placa
 */
 
 /*

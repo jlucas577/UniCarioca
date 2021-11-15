@@ -4,8 +4,8 @@
 
 /*
   Questão: Faça um programa em C que preencha dois vetores de dez
-  elementos inteiros cada um e crie um terceiro vetor formado pela intercalação dos dois
-  primeiros vetores. Ao final imprima o terceiro vetor.
+    elementos inteiros cada um e crie um terceiro vetor formado pela intercalação dos dois
+    primeiros vetores. Ao final imprima o terceiro vetor.
 */
 
 /*
