@@ -10,7 +10,7 @@
 */
 
 /*
-  Grupo: João Lucas Martins de Sousa, Luciene Alves da Silva,
+  Grupo: João Lucas Martins de Sousa, Luciene Alves da Silva, Everton de Souza
     Guilherme Luiz De Oliveira Guasselli, Laiza Gonçalves Fernandes Da Silva
 */
 
