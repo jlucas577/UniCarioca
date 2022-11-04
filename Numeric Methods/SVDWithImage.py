@@ -12,7 +12,7 @@ image = io.imread(imageUrl)
 def compressImage(img_name, img, k):
     print("Processing...")
 
-    # splitting the array into three 2D array (svd only apply on 2D array)
+    # Splitting the array into three 2D array (svd only apply on 2D array)
     r = img[:, :, 0]  # array for R
     g = img[:, :, 1]  # array for G
     b = img[:, :, 2]  # array for B

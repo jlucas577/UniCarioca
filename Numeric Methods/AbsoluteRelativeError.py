@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def AbsoluteError(i1, i2, sqrt):
     a1, a2 = np.array(i1), np.array(i2)
     output = np.sum(
